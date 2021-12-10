@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contato</title>
+
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/bandeirabarra.png">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/contato.css" />
+    <link rel="stylesheet" href="css/cabecalho.css" />
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <img class="logo" src="imagens/bandeira.png">
+
+        <nav class="menu">
+            <a class="link_menu" href="index.html">Início</a>
+            <a class="link_menu" href="quemsomos.html">Quem Somos</a>
+            <a class="link_menu" href="contato.html">Contato</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1 class="titulo">Contate-nos</h1>
+        <form class="form" action="" method="POST">
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input class="input-padrao" type="text" id="nomesobrenome" required />
+
+            <label for="email">Email</label>
+            <input class="input-padrao" type="email" id="email" required placeholder="seunome@dominio.com" />
+
+            <!-- <label for="telefone">Telefone</label>
+            <input class="input-padrao" type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX" /> -->
+
+            <label for="mensagem">Mensagem</label>
+            <textarea class="input-padrao" cols="70" rows="10" id="mensagem" required></textarea>
+
+
+            <!-- <fieldset>
+                <legend>Como prefere nosso contato?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
+                    Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+                    Telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+                        checked> Whatsapp</label>
+            </fieldset>
+
+            <div>
+                <legend>Qual período prefere nosso contato?</legend>
+                <select class="periodo">
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </div>
+
+            <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas notificações por
+                email?</label> -->
+
+            <br>
+
+            <input class="enviar" type="submit" value="Enviar" />
+
+        </form>
+    </main>

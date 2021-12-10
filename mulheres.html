@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lésbicas no Entretenimento</title>
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/bandeirabarra.png">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/mulheres.css" />
+    <link rel="stylesheet" href="css/cabecalho.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script> 
+    $(document).ready(function(){
+      $("#imagem1").click(function(){
+        $("#textoimg1").show();
+        $("#textoimg2").hide();
+        $("#textoimg3").hide();
+        $("#textoimg4").hide();
+        $("#textoimg5").hide();
+        $("#textoimg6").hide();
+        $("#info").hide();
+      });
+
+      $("#imagem2").click(function(){
+        $("#textoimg2").show();
+        $("#textoimg1").hide();
+        $("#textoimg3").hide();
+        $("#textoimg4").hide();
+        $("#textoimg5").hide();
+        $("#textoimg6").hide();
+        $("#info").hide();
+      });
+
+      $("#imagem3").click(function(){
+        $("#textoimg3").show();
+        $("#textoimg1").hide();
+        $("#textoimg2").hide();
+        $("#textoimg4").hide();
+        $("#textoimg5").hide();
+        $("#textoimg6").hide();
+        $("#info").hide();
+      });
+
+      $("#imagem4").click(function(){
+        $("#textoimg4").show();
+        $("#textoimg1").hide();
+        $("#textoimg2").hide();
+        $("#textoimg3").hide();
+        $("#textoimg5").hide();
+        $("#textoimg6").hide();
+        $("#info").hide();
+      });
+
+      $("#imagem5").click(function(){
+        $("#textoimg5").show();
+        $("#textoimg2").hide();
+        $("#textoimg3").hide();
+        $("#textoimg4").hide();
+        $("#textoimg1").hide();
+        $("#textoimg6").hide();
+        $("#info").hide();
+      });
+    });
+    </script>
+
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <img class="logo" src="imagens/bandeira.png">
+
+        <nav class="menu">
+            <a class="link_menu" href="index.html">Início</a>
+            <a class="link_menu" href="quemsomos.html">Quem Somos</a>
+            <a class="link_menu" href="contato.html">Contato</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="bloco1">
+            <h1>Lésbicas no Entretenimento</h1>
+            <ul class="topicos">
+                <li>
+                    <img id = "imagem1" class="img" src="imagens/audre.png">
+                    <h2>Audre Lorde</h2>
+                </li>
+
+                <li>
+                    <img id = "imagem2" class="img" src="imagens/cassandra.jpg">
+                    <h2>Cassandra Rios</h2>
+                </li>
+
+                <li>
+                    <img id = "imagem3" class=img src="imagens/safo.png">
+                    <h2>Safo</h2>
+                </li>
+
+                <li>
+                    <img  id = "imagem4" class=img src="imagens/nancy.jpeg">
+                    <h2>Nancy Cárdenas</h2>
+                </li>
+
+                <li>
+                    <img  id = "imagem5" class=img src="imagens/gladys.jpg">
+                    <h2>Gladys Bentley</h2>
+                </li>
+            </ul>
+
+        </div>
+
+        <p id ="info">
+            Clique nas fotos para saber mais!
+        </p>
+
+        <div id= "textoimg1" class="sinopse" style = "display: none">
+            <p>
+                Um dos maiores ícones da diversidade na literatura, tanto por sua descendência caribenha quanto por sua sexualidade. Poeta, suas obras abordam temas como opressão, luta por direitos, gênero e sexualidade. Lutou durante toda sua vida por tópicos relacionados aos direitos civis.
+            </p>
+        </div>
+
+        <div id= "textoimg2" class="sinopse" style = "display: none">
+            <p>
+                Escritora brasileira, Cassandra Rios era o pseudônimo de Odette Pérez, que escrevia principalmente sobre homosexualidade feminina, erotismo, ficção e mistério. Por ter sido a primeira escritora a tratar do tema, foi perseguida e ameaçada pela ditadura militar, com vários de seus livros sendo proibidos entre 1964 e 1985.
+            </p>
+        </div>
+
+        <div id= "textoimg3" class="sinopse" style = "display: none">
+            <p>
+                Nascida na ilha de Lesbos, cerca de 615 A.C., Safo foi uma poeta que escrevia sobre seu desejo para e por mulheres.As palavras Sáfica e Lésbica são derivadas de seu nome e local onde nasceu, ambos sinônimos de mulheres que sentem atração por outras mulheres.
+            </p>
+        </div>
+
+        <div id= "textoimg4" class="sinopse" style = "display: none">
+            <p>
+                Diretora, poeta e escritoria mexicana, Nancy foi a primeira mulher lésbica publicamente assumida em seu país. A maior parte de seus trabalhos tomavam como ponto de partida sua identidade como lésbica e temas da comunidade LGBTQIA+. Além de ser ativista pelos direitos de sua comunidade, ela fundou a primeira organização gay no México e liderou a primeira marcha do Orgulho Gay, em 1978.
+            </p>
+        </div>
+
+        <div id= "textoimg5" class="sinopse" style = "display: none">
+            <p>
+                Foi uma pianista e cantora de blues norte-americana na época de 1930. Se assumiu lésbica em seus primeiros anos de carreira, além de ser uma das primeiras drag kings nos palcos de Nova York. Cantava suas próprias letras usando smoking e cartola, e foi conhecida por sua voz e jeito extrovertido em suas apresentações.
+            </p>
+        </div>
+
+    </main>
+</body>
+
+</html>
+

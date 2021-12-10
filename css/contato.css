@@ -1,0 +1,72 @@
+main {
+    width: 1000px;
+    margin: auto;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+    padding-bottom: 28px;
+}
+
+form label, form legend {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+form label:hover {
+    cursor: pointer;
+}
+
+.periodo:hover {
+    cursor: pointer;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.input-padrao {
+    margin: 0 0 20px 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0 10px 0;
+}
+
+.enviar {
+    width: 30%;
+    font-size: 17px;
+    padding: 8px 3px;
+    background-color: #ffe1ef;
+    border-color: #ffe1ef;
+    border-width: 2px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.enviar:hover {
+    border-width: 2px;
+    border-color: black;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+
+    main {
+        width: auto;
+        margin: 2vh;
+        
+    }
+}
